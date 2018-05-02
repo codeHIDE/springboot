@@ -1,0 +1,1084 @@
+2018-04-11 14:27:10.564  INFO 13936 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 13936 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:27:10.567  INFO 13936 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:27:10.685  INFO 13936 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:27:10 CST 2018]; root of context hierarchy
+2018-04-11 14:27:12.666  WARN 13936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.pkyou.Sample.Dao]' package. Please check your configuration.
+2018-04-11 14:27:13.081  WARN 13936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jyc.Sample]' package. Please check your configuration.
+2018-04-11 14:27:13.780  INFO 13936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2bf585b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:27:14.895  INFO 13936 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:27:14.914  INFO 13936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:27:14.916  INFO 13936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:27:15.075  INFO 13936 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:27:15.075  INFO 13936 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4394 ms
+2018-04-11 14:27:15.379  INFO 13936 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:27:15.386  INFO 13936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:27:15.388  INFO 13936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:27:15.389  INFO 13936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:27:15.389  INFO 13936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:27:15.466  WARN 13936 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controllerService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jyc.Sample.Dao.PcacMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2018-04-11 14:27:15.471  INFO 13936 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:27:15.498  INFO 13936 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:27:15.660 ERROR 13936 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.jyc.Sample.Dao.PcacMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.jyc.Sample.Dao.PcacMapper' in your configuration.
+
+2018-04-11 14:27:59.174  INFO 16628 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 16628 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:27:59.176  INFO 16628 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:27:59.314  INFO 16628 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:27:59 CST 2018]; root of context hierarchy
+2018-04-11 14:28:01.158  WARN 16628 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.pkyou.Sample.Dao]' package. Please check your configuration.
+2018-04-11 14:28:01.427  WARN 16628 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jyc.Sample]' package. Please check your configuration.
+2018-04-11 14:28:02.130  INFO 16628 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e127dfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:28:03.187  INFO 16628 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:28:03.200  INFO 16628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:28:03.202  INFO 16628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:28:03.342  INFO 16628 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:28:03.343  INFO 16628 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4043 ms
+2018-04-11 14:28:03.584  INFO 16628 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:28:03.591  INFO 16628 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:28:03.592  INFO 16628 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:28:03.592  INFO 16628 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:28:03.593  INFO 16628 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:28:03.668  WARN 16628 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controllerService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jyc.Sample.Dao.PcacMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2018-04-11 14:28:03.672  INFO 16628 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:28:03.696  INFO 16628 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:28:03.861 ERROR 16628 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.jyc.Sample.Dao.PcacMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.jyc.Sample.Dao.PcacMapper' in your configuration.
+
+2018-04-11 14:28:46.868  INFO 11752 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 11752 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:28:46.871  INFO 11752 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:28:46.959  INFO 11752 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:28:46 CST 2018]; root of context hierarchy
+2018-04-11 14:28:48.345  WARN 11752 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.pkyou.Sample.Dao]' package. Please check your configuration.
+2018-04-11 14:28:48.621  WARN 11752 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jyc.Sample]' package. Please check your configuration.
+2018-04-11 14:28:49.329  INFO 11752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c68b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:28:50.363  INFO 11752 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:28:50.378  INFO 11752 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:28:50.379  INFO 11752 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:28:50.527  INFO 11752 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:28:50.529  INFO 11752 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3573 ms
+2018-04-11 14:28:50.786  INFO 11752 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:28:50.793  INFO 11752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:28:50.794  INFO 11752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:28:50.795  INFO 11752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:28:50.796  INFO 11752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:28:50.875  WARN 11752 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-04-11 14:28:50.879  INFO 11752 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:28:50.897  INFO 11752 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:28:51.034 ERROR 11752 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dao in com.jyc.Sample.ServiceImp.ControllerService required a bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' in your configuration.
+
+2018-04-11 14:29:31.238  INFO 12508 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 12508 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:29:31.242  INFO 12508 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:29:31.415  INFO 12508 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df8762d: startup date [Wed Apr 11 14:29:31 CST 2018]; root of context hierarchy
+2018-04-11 14:29:33.245  WARN 12508 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.pkyou.Sample.Dao]' package. Please check your configuration.
+2018-04-11 14:29:33.580  WARN 12508 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jyc.Sample]' package. Please check your configuration.
+2018-04-11 14:29:34.391  INFO 12508 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1bc6a182] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:29:35.491  INFO 12508 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:29:35.511  INFO 12508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:29:35.513  INFO 12508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:29:35.665  INFO 12508 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:29:35.667  INFO 12508 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4258 ms
+2018-04-11 14:29:35.923  INFO 12508 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:29:35.930  INFO 12508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:29:35.930  INFO 12508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:29:35.931  INFO 12508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:29:35.931  INFO 12508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:29:36.009  WARN 12508 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-04-11 14:29:36.013  INFO 12508 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:29:36.032  INFO 12508 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:29:36.171 ERROR 12508 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dao in com.jyc.Sample.ServiceImp.ControllerService required a bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.jyc.Sample.Dao.IIndoorInfoDao' in your configuration.
+
+2018-04-11 14:30:21.961  INFO 16524 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 16524 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:30:21.964  INFO 16524 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:30:22.054  INFO 16524 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:30:22 CST 2018]; root of context hierarchy
+2018-04-11 14:30:24.955  INFO 16524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e93d277c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:30:25.941  INFO 16524 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:30:25.955  INFO 16524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:30:25.956  INFO 16524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:30:26.133  INFO 16524 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:30:26.134  INFO 16524 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4084 ms
+2018-04-11 14:30:26.370  INFO 16524 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:30:26.382  INFO 16524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:30:26.383  INFO 16524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:30:26.384  INFO 16524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:30:26.384  INFO 16524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:30:27.055  WARN 16524 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IIndoorInfoDao' defined in file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\Dao\IIndoorInfoDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+2018-04-11 14:30:27.059  INFO 16524 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:30:27.078  INFO 16524 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:30:27.089 ERROR 16524 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloWorldController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IIndoorInfoDao' defined in file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\Dao\IIndoorInfoDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at com.jyc.Sample.Main.main(Main.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IIndoorInfoDao' defined in file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\Dao\IIndoorInfoDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IIndoorInfoDao' defined in file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\Dao\IIndoorInfoDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 51 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\HelloBoot\target\classes\com\jyc\Sample\dao\Indoor.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522) ~[mybatis-spring-1.3.0.jar:1.3.0]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381) ~[mybatis-spring-1.3.0.jar:1.3.0]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546) ~[mybatis-spring-1.3.0.jar:1.3.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130) ~[mybatis-spring-boot-autoconfigure-1.1.1.jar:1.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1c1178ac.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.1.1.jar:1.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1c1178ac$$FastClassBySpringCGLIB$$7c778be3.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.1.1.jar:1.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1c1178ac.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.1.1.jar:1.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520) ~[mybatis-spring-1.3.0.jar:1.3.0]
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.0.jar:3.4.0]
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.pkyou.Sample.Entyties.IndoorCheckItemEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.4.0.jar:3.4.0]
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.pkyou.Sample.Entyties.IndoorCheckItemEntity
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.4.0.jar:3.4.0]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.4.0.jar:3.4.0]
+	... 85 common frames omitted
+
+2018-04-11 14:31:54.263  INFO 10996 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 10996 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:31:54.266  INFO 10996 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:31:54.354  INFO 10996 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:31:54 CST 2018]; root of context hierarchy
+2018-04-11 14:31:57.396  INFO 10996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6ad2e36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:31:58.461  INFO 10996 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-04-11 14:31:58.474  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:31:58.475  INFO 10996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:31:58.608  INFO 10996 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:31:58.608  INFO 10996 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4259 ms
+2018-04-11 14:31:58.887  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:31:58.894  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:31:58.895  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:31:58.896  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:31:58.896  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:32:00.139  INFO 10996 --- [restartedMain] o.s.aop.framework.CglibAopProxy          : Method [java.util.List springfox.documentation.schema.property.OptimizedModelPropertiesProvider.candidateProperties(com.fasterxml.classmate.ResolvedType,com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition,springfox.documentation.spi.schema.contexts.ModelContext)] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2018-04-11 14:32:00.396  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/hello],methods=[GET]}" onto public java.lang.String com.jyc.Sample.Controller.HelloWorldController.hello()
+2018-04-11 14:32:00.397  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/getIndoorCheckItemEntities],methods=[GET]}" onto public java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity> com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities()
+2018-04-11 14:32:00.398  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-04-11 14:32:00.404  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-11 14:32:00.405  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-11 14:32:00.406  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-11 14:32:00.409  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-11 14:32:00.410  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-11 14:32:00.889  INFO 10996 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:31:54 CST 2018]; root of context hierarchy
+2018-04-11 14:32:00.991  INFO 10996 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:00.992  INFO 10996 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:01.054  INFO 10996 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:01.499  INFO 10996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-11 14:32:01.613  INFO 10996 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-11 14:32:01.635  INFO 10996 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-11 14:32:01.660  INFO 10996 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-04-11 14:32:01.669  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-11 14:32:01.675  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:01.678  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getIndoorCheckItemEntities belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:32:01.680  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:01.680  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: hello belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:32:01.681  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.681  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:32:01.682  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.682  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:32:01.688  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/swagger-ui-注释-api-级别 Description: swagger-ui-注释-api-级别 Position: 0
+2018-04-11 14:32:01.689  INFO 10996 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-04-11 14:32:01.721  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:01.721  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:01.732  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:01.732  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:01.739  INFO 10996 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.739  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.753  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.758  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.761  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.764  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.774  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.777  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.787  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.797  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.800  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.801  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.803  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.804  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.806  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.807  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.824  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.826  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:01.831  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.831  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.833  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.833  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.873  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.874  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.876  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.876  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:01.877  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:32:01.879  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:32:01.883  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:32:01.884  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:32:01.885  INFO 10996 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.885  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.886  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.889  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.895  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.897  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.904  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.908  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.910  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.912  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.913  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.916  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.917  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.922  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.925  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.926  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.938  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.941  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:01.968  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.968  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.968  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.968  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.969  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:01.969  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:01.970  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.971  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:01.971  INFO 10996 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:01.971  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:01.972  INFO 10996 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.972  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:01.974  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:01.995  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:02.002  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:32:02.002  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-04-11 14:32:02.003  INFO 10996 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:32:02.003  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-04-11 14:32:02.004  INFO 10996 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:02.004  INFO 10996 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:02.014  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:02.018  INFO 10996 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:02.097 ERROR 10996 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-192.168.7.11-9090"]
+
+java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at com.jyc.Sample.Main.main(Main.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+
+2018-04-11 14:32:02.112 ERROR 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-9090]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at com.jyc.Sample.Main.main(Main.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 18 common frames omitted
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 19 common frames omitted
+
+2018-04-11 14:32:02.128  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:32:02.151  INFO 10996 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:32:02.156 ERROR 10996 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9090, or configure this application to listen on another port.
+
+2018-04-11 14:32:02.157  INFO 10996 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:31:54 CST 2018]; root of context hierarchy
+2018-04-11 14:32:02.161  INFO 10996 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-11 14:32:31.220  INFO 12392 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 12392 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:32:31.223  INFO 12392 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:32:31.373  INFO 12392 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:32:31 CST 2018]; root of context hierarchy
+2018-04-11 14:32:34.101  INFO 12392 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2bf585b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:32:35.133  INFO 12392 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-04-11 14:32:35.148  INFO 12392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:32:35.149  INFO 12392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:32:35.300  INFO 12392 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:32:35.301  INFO 12392 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3937 ms
+2018-04-11 14:32:35.594  INFO 12392 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:32:35.600  INFO 12392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:32:35.601  INFO 12392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:32:35.602  INFO 12392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:32:35.602  INFO 12392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:32:36.690  INFO 12392 --- [restartedMain] o.s.aop.framework.CglibAopProxy          : Method [java.util.List springfox.documentation.schema.property.OptimizedModelPropertiesProvider.candidateProperties(com.fasterxml.classmate.ResolvedType,com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition,springfox.documentation.spi.schema.contexts.ModelContext)] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2018-04-11 14:32:36.948  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/getIndoorCheckItemEntities],methods=[GET]}" onto public java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity> com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities()
+2018-04-11 14:32:36.950  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/hello],methods=[GET]}" onto public java.lang.String com.jyc.Sample.Controller.HelloWorldController.hello()
+2018-04-11 14:32:36.951  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-04-11 14:32:36.955  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-11 14:32:36.956  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-11 14:32:36.958  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-11 14:32:36.963  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-11 14:32:36.964  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-11 14:32:37.421  INFO 12392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:32:31 CST 2018]; root of context hierarchy
+2018-04-11 14:32:37.499  INFO 12392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:37.500  INFO 12392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:37.557  INFO 12392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:32:38.187  INFO 12392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-11 14:32:38.319  INFO 12392 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-11 14:32:38.350  INFO 12392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-11 14:32:38.417  INFO 12392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-04-11 14:32:38.434  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-11 14:32:38.444  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:38.447  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getIndoorCheckItemEntities belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:32:38.449  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:38.451  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: hello belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:32:38.452  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.452  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:32:38.453  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.454  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:32:38.466  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/swagger-ui-注释-api-级别 Description: swagger-ui-注释-api-级别 Position: 0
+2018-04-11 14:32:38.467  INFO 12392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-04-11 14:32:38.551  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:38.552  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:38.572  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:38.572  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:32:38.582  INFO 12392 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.583  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.617  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.624  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.629  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.631  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.633  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.638  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.639  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.641  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.643  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.689  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.763  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.766  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.769  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.775  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.777  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.785  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:32:38.799  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.799  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.800  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.801  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.874  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.874  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.876  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.876  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:32:38.878  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:32:38.878  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:32:38.881  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:32:38.882  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:32:38.882  INFO 12392 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.882  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.885  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.892  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.894  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.895  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.910  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.913  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.919  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.922  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.924  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.925  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.926  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.928  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.929  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.930  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.934  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.935  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:32:38.970  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.971  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.972  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.973  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.974  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:38.974  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:38.976  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.976  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:32:38.977  INFO 12392 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:38.977  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:32:38.978  INFO 12392 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.978  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.979  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:38.982  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:32:38.986  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:32:38.987  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-04-11 14:32:38.987  INFO 12392 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:32:38.987  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-04-11 14:32:38.997  INFO 12392 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.997  INFO 12392 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:32:38.998  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:38.999  INFO 12392 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:32:39.095 ERROR 12392 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-192.168.7.11-8080"]
+
+java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at com.jyc.Sample.Main.main(Main.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+
+2018-04-11 14:32:39.102 ERROR 12392 --- [restartedMain] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at com.jyc.Sample.Main.main(Main.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 18 common frames omitted
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 19 common frames omitted
+
+2018-04-11 14:32:39.145  INFO 12392 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-11 14:32:39.195  INFO 12392 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-11 14:32:39.210 ERROR 12392 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-04-11 14:32:39.213  INFO 12392 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:32:31 CST 2018]; root of context hierarchy
+2018-04-11 14:32:39.219  INFO 12392 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-11 14:33:25.587  INFO 10116 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 10116 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 14:33:25.590  INFO 10116 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 14:33:25.681  INFO 10116 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:33:25 CST 2018]; root of context hierarchy
+2018-04-11 14:33:28.208  INFO 10116 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c68b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 14:33:29.250  INFO 10116 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-04-11 14:33:29.264  INFO 10116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 14:33:29.268  INFO 10116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 14:33:29.423  INFO 10116 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 14:33:29.424  INFO 10116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3748 ms
+2018-04-11 14:33:29.678  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 14:33:29.685  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 14:33:29.686  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 14:33:29.686  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 14:33:29.686  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 14:33:31.148  INFO 10116 --- [restartedMain] o.s.aop.framework.CglibAopProxy          : Method [java.util.List springfox.documentation.schema.property.OptimizedModelPropertiesProvider.candidateProperties(com.fasterxml.classmate.ResolvedType,com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition,springfox.documentation.spi.schema.contexts.ModelContext)] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2018-04-11 14:33:31.422  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/getIndoorCheckItemEntities],methods=[GET]}" onto public java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity> com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities()
+2018-04-11 14:33:31.425  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/hello],methods=[GET]}" onto public java.lang.String com.jyc.Sample.Controller.HelloWorldController.hello()
+2018-04-11 14:33:31.427  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-04-11 14:33:31.429  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-11 14:33:31.431  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-11 14:33:31.432  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-11 14:33:31.438  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-11 14:33:31.439  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-11 14:33:31.917  INFO 10116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:33:25 CST 2018]; root of context hierarchy
+2018-04-11 14:33:32.004  INFO 10116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:33:32.005  INFO 10116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:33:32.055  INFO 10116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 14:33:32.409  INFO 10116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-11 14:33:32.492  INFO 10116 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-11 14:33:32.518  INFO 10116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-11 14:33:32.547  INFO 10116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-04-11 14:33:32.556  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-11 14:33:32.568  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.575  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getIndoorCheckItemEntities belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:33:32.577  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.577  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: hello belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 14:33:32.580  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.582  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:33:32.583  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.583  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 14:33:32.591  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/swagger-ui-注释-api-级别 Description: swagger-ui-注释-api-级别 Position: 0
+2018-04-11 14:33:32.595  INFO 10116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-04-11 14:33:32.625  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:33:32.625  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:33:32.636  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:33:32.637  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 14:33:32.644  INFO 10116 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.644  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.658  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.662  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.666  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.669  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.675  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.677  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.679  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.681  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.682  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.687  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.689  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.691  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.692  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.694  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.695  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.703  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 14:33:32.709  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.710  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.712  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.713  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.749  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.750  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.750  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.750  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 14:33:32.751  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:33:32.752  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:33:32.755  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 14:33:32.755  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 14:33:32.755  INFO 10116 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.756  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.757  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.759  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.761  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.762  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.764  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.765  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.767  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.768  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.770  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.771  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.780  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.782  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.784  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.786  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.787  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.790  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 14:33:32.808  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.808  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.808  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.808  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.810  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:33:32.810  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:33:32.811  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.812  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 14:33:32.812  INFO 10116 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:33:32.813  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 14:33:32.813  INFO 10116 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.814  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.815  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.816  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.820  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:33:32.820  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-04-11 14:33:32.821  INFO 10116 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 14:33:32.822  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-04-11 14:33:32.823  INFO 10116 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.823  INFO 10116 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 14:33:32.824  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.825  INFO 10116 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 14:33:32.955  INFO 10116 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-04-11 14:33:32.968  INFO 10116 --- [restartedMain] com.jyc.Sample.Main                      : Started Main in 7.931 seconds (JVM running for 8.557)
+2018-04-11 15:01:54.029  INFO 10116 --- [http-nio-127.0.0.1-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-11 15:01:54.029  INFO 10116 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-11 15:01:54.061  INFO 10116 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-04-11 15:02:13.419  INFO 10116 --- [http-nio-127.0.0.1-8080-exec-6] c.j.Sample.ServiceImp.ControllerService  : 共有7条数据
+2018-04-11 15:03:10.403  INFO 10116 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 14:33:25 CST 2018]; root of context hierarchy
+2018-04-11 15:03:10.405  WARN 10116 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-04-11 15:03:10.408  INFO 10116 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-11 15:03:10.939  INFO 10116 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 10116 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 15:03:10.940  INFO 10116 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 15:03:10.945  INFO 10116 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46c87b4b: startup date [Wed Apr 11 15:03:10 CST 2018]; root of context hierarchy
+2018-04-11 15:03:11.619  INFO 10116 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c68b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 15:03:11.768  INFO 10116 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-04-11 15:03:11.769  INFO 10116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 15:03:11.769  INFO 10116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 15:03:11.797  INFO 10116 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 15:03:11.799  INFO 10116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 854 ms
+2018-04-11 15:03:11.854  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 15:03:11.855  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 15:03:11.855  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 15:03:11.857  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 15:03:11.857  INFO 10116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 15:03:17.974  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 13624 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 15:03:17.977  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 15:03:18.062  INFO 13624 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 15:03:18 CST 2018]; root of context hierarchy
+2018-04-11 15:03:20.850  INFO 13624 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36f1fb60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 15:03:21.907  INFO 13624 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-04-11 15:03:21.940  INFO 13624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 15:03:21.942  INFO 13624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 15:03:22.123  INFO 13624 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 15:03:22.123  INFO 13624 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4065 ms
+2018-04-11 15:03:22.422  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 15:03:22.435  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 15:03:22.436  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 15:03:22.437  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 15:03:22.440  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 15:03:23.588  INFO 13624 --- [restartedMain] o.s.aop.framework.CglibAopProxy          : Method [java.util.List springfox.documentation.schema.property.OptimizedModelPropertiesProvider.candidateProperties(com.fasterxml.classmate.ResolvedType,com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition,springfox.documentation.spi.schema.contexts.ModelContext)] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2018-04-11 15:03:23.939  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/getIndoorCheckItemEntities],methods=[GET]}" onto public java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity> com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities()
+2018-04-11 15:03:23.941  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/hello],methods=[POST]}" onto public java.lang.String com.jyc.Sample.Controller.HelloWorldController.hello()
+2018-04-11 15:03:23.942  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-04-11 15:03:23.948  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-11 15:03:23.950  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-11 15:03:23.950  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-11 15:03:23.953  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-11 15:03:23.954  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-11 15:03:24.415  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 15:03:18 CST 2018]; root of context hierarchy
+2018-04-11 15:03:24.497  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:24.497  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:24.553  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:24.939  INFO 13624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-11 15:03:25.033  INFO 13624 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-11 15:03:25.051  INFO 13624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-11 15:03:25.092  INFO 13624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-04-11 15:03:25.105  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-11 15:03:25.112  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.115  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getIndoorCheckItemEntities belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 15:03:25.117  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.117  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: hello belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 15:03:25.118  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.118  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 15:03:25.119  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.119  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 15:03:25.132  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-04-11 15:03:25.133  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/swagger-ui-注释-api-级别 Description: swagger-ui-注释-api-级别 Position: 0
+2018-04-11 15:03:25.162  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:25.162  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:25.174  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:25.174  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:25.186  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.186  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.202  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.206  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.212  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.214  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.216  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.218  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.220  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.221  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.223  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.225  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.227  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.228  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.231  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.234  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.240  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.242  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:25.248  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.249  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.251  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.251  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.291  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.292  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.292  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.292  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:25.293  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 15:03:25.295  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 15:03:25.299  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 15:03:25.300  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 15:03:25.301  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.302  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.303  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.306  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.308  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.316  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.320  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.327  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.328  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.330  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.331  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.332  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.333  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.335  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.337  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.338  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.339  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.340  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:25.363  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.363  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.364  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.364  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.364  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:25.365  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:25.366  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.366  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:25.367  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:25.367  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:25.367  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.367  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.368  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.369  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.374  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 15:03:25.374  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-04-11 15:03:25.374  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 15:03:25.374  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-04-11 15:03:25.375  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.375  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:25.375  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.376  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:25.469  INFO 13624 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-04-11 15:03:25.481  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : Started Main in 7.877 seconds (JVM running for 8.442)
+2018-04-11 15:03:35.605  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-11 15:03:35.605  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-11 15:03:35.641  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-04-11 15:03:35.675  WARN 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2018-04-11 15:03:35.676  WARN 13624 --- [http-nio-127.0.0.1-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2018-04-11 15:03:50.423  INFO 13624 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e7e99ef: startup date [Wed Apr 11 15:03:18 CST 2018]; root of context hierarchy
+2018-04-11 15:03:50.426  WARN 13624 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-04-11 15:03:50.428  INFO 13624 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-11 15:03:50.797  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : Starting Main on DESKTOP-KRRDQ0H with PID 13624 (D:\workspace\HelloBoot\target\classes started by flm in D:\workspace\HelloBoot)
+2018-04-11 15:03:50.798  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : No active profile set, falling back to default profiles: default
+2018-04-11 15:03:50.801  INFO 13624 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30823fa5: startup date [Wed Apr 11 15:03:50 CST 2018]; root of context hierarchy
+2018-04-11 15:03:51.603  INFO 13624 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36f1fb60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-11 15:03:51.747  INFO 13624 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-04-11 15:03:51.748  INFO 13624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-11 15:03:51.749  INFO 13624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-11 15:03:51.771  INFO 13624 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-11 15:03:51.772  INFO 13624 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 971 ms
+2018-04-11 15:03:51.841  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-11 15:03:51.842  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-11 15:03:51.842  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-11 15:03:51.842  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-11 15:03:51.842  INFO 13624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-11 15:03:52.287  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/getIndoorCheckItemEntities],methods=[GET]}" onto public java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity> com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities()
+2018-04-11 15:03:52.288  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/controller/hello],methods=[GET]}" onto public java.lang.String com.jyc.Sample.Controller.HelloWorldController.hello()
+2018-04-11 15:03:52.288  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-04-11 15:03:52.290  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-11 15:03:52.290  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-11 15:03:52.290  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-11 15:03:52.296  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-11 15:03:52.296  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-11 15:03:52.432  INFO 13624 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30823fa5: startup date [Wed Apr 11 15:03:50 CST 2018]; root of context hierarchy
+2018-04-11 15:03:52.447  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:52.448  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:52.469  INFO 13624 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-11 15:03:52.591  INFO 13624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-11 15:03:52.674  INFO 13624 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-11 15:03:52.687  INFO 13624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-11 15:03:52.688  INFO 13624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-04-11 15:03:52.690  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-11 15:03:52.691  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.691  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getIndoorCheckItemEntities belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 15:03:52.691  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.691  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: hello belongs to groups: [[ResourceGroup{groupName='swagger-ui-注释-api-级别', position=0, controller=com.jyc.Sample.Controller.HelloWorldController}]] 
+2018-04-11 15:03:52.692  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.692  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 15:03:52.692  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.692  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-04-11 15:03:52.693  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-04-11 15:03:52.693  INFO 13624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/swagger-ui-注释-api-级别 Description: swagger-ui-注释-api-级别 Position: 0
+2018-04-11 15:03:52.699  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:52.699  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:52.705  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:52.705  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-04-11 15:03:52.710  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.711  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.718  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.720  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.721  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.722  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.723  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.724  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.725  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.726  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.728  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.729  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.729  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.735  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.737  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.738  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.741  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.742  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-04-11 15:03:52.745  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.746  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.746  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.746  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.753  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.753  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.753  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.753  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-04-11 15:03:52.754  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 15:03:52.754  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 15:03:52.755  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-04-11 15:03:52.755  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-04-11 15:03:52.756  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.756  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.757  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.759  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.760  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.760  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.761  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.762  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.763  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.764  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.765  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.765  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.767  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.768  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.770  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.771  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.772  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.773  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-04-11 15:03:52.777  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.777  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.778  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.778  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.778  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:52.778  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:52.780  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.780  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.ArrayList<com.jyc.Sample.Entyties.IndoorCheckItemEntity>(true)
+2018-04-11 15:03:52.781  INFO 13624 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:52.781  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jyc.Sample.Entyties.IndoorCheckItemEntity(true)
+2018-04-11 15:03:52.781  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.782  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/getIndoorCheckItemEntities.com.jyc.Sample.Controller.HelloWorldController.getIndoorCheckItemEntities.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.782  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.783  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getIndoorCheckItemEntities was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.785  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 15:03:52.785  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-04-11 15:03:52.787  INFO 13624 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-04-11 15:03:52.787  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-04-11 15:03:52.787  INFO 13624 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.788  INFO 13624 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /controller/hello.com.jyc.Sample.Controller.HelloWorldController.hello.DefaultGenericTypeNamingStrategy
+2018-04-11 15:03:52.788  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.789  INFO 13624 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method hello was swagger-ui-注释-api-级别
+2018-04-11 15:03:52.808  INFO 13624 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-04-11 15:03:52.811  INFO 13624 --- [restartedMain] com.jyc.Sample.Main                      : Started Main in 2.09 seconds (JVM running for 35.772)
+2018-04-11 15:03:52.956  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-11 15:03:52.956  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-11 15:03:52.963  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2018-04-11 15:03:54.346  INFO 13624 --- [http-nio-127.0.0.1-8080-exec-1] c.j.Sample.ServiceImp.ControllerService  : 共有7条数据
+2018-04-11 15:06:39.737  INFO 13624 --- [Thread-10] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30823fa5: startup date [Wed Apr 11 15:03:50 CST 2018]; root of context hierarchy
+2018-04-11 15:06:39.739  WARN 13624 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-04-11 15:06:39.740  INFO 13624 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

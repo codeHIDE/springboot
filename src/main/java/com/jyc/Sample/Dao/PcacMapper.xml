@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jyc.Sample.Dao.PcacMapper">
+	<select id="testGet" resultType="map" >
+		select a.MCHT_CD as businessNo,
+		a.name as fullName,
+		a.NAME_BUSI as name,
+		a.BUSI_LICE_NO as licenseNo,
+		a.REG_ADDR as registerAddress,
+		a.CERTIF as corporation,
+		a.CERTIF_NO as idCard,
+		a.UP_MCC_CD as mcc,
+		to_char(a.APPR_DATE,'YYYYMMDD') as createDate,
+		a.STATUS as flag,
+		to_char(a.DELETE_DATE,'YYYYMMDD') as stopDate,
+		a.CONTACT_NAME as contactor,
+		a.CONTACT_PHONENO as corporationTel,
+		b.BANK_CODE as bankNo,
+		b.BANK_NAME as bankName,
+		a.approvalusername as accountType,
+		b.NAME as accountName,
+		b.ACCOUNT as account
+
+		from tbl_mcht_inf a left join tbl_mcht_bankaccount b
+		on a.MCHT_CD=b.OWNER_CD
+		where b.ACCOUNTTYPE='01'
+		and a.status='01' and a.bank_belong_cd='48502000'
+		and to_char(a.APPR_DATE,'YYYYMMDD')='20170819'
+	</select>
+</mapper>
